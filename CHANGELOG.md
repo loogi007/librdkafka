@@ -8,6 +8,12 @@
     refcounting issues when used on light-weight (error-only) topic objects
     such as consumer errors (#2693)
 
+### Producer fixes
+
+ * Topic authorization errors are now properly propagated for produced messages,
+   both through delivery reports and as `ERR_TOPIC_AUTHORIZATION_FAILED`
+   return value from `produce*()` (#2215)
+
 
 # librdkafka v1.5.0
 
