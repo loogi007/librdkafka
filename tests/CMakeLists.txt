@@ -104,6 +104,7 @@ set(
     0110-batch_size.cpp
     0111-delay_create_topics.cpp
     0112-assign_unknown_part.c
+    0116-kafkaconsumer_close.cpp
     8000-idle.cpp
     test.c
     testcpp.cpp
